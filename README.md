@@ -4,25 +4,15 @@ This project demonstrates how to build a complete VPN solution using FortiGate f
 The goal is to connect two separate LAN networks securely using two IPsec tunnels, then use SD-WAN to perform load-balancing, failover, and dynamic path selection and SSL VPN solution.
 
 🧪 Project Overview
-
 The goal of this lab is to simulate a real enterprise environment using:
-
 Two FortiGate devices (FGT-HQ and FGT-Branch)
-
 Two LAN networks
-
 192.168.2.0/24 (Linux Host)
-
 192.168.3.0/24 (Kali Host)
-
 Two IPsec tunnels used as SD-WAN members
-
 SLA performance checks
-
 Failover and load balancing
-
 GNS3 virtual topology & VMWare Work station
-
 This project demonstrates:
 
 ✔ How to build IPsec tunnels between two FortiGates
